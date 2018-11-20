@@ -1,0 +1,7 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: surgecloud/drone-jobinfo
+    registry: docker.io
+    tags: [latest]
+    secrets: [docker_username, docker_password]
